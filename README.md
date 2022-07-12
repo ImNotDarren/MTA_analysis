@@ -11,17 +11,28 @@ to virtualize the result for a more clear view and give suggestions.
 ## Design
 
 Company A wants to put out ads in some MTA stations from September to December.
-They're advatising their brand new gaming laptops and desktops. Gaming laptops
-are mostly targeting college students since most of them like and have the time
-to play games. Desktops are targeting employees especially around IT companies.
-The goal of this project was to analyze MTA dataset to give advertising suggestions
-to the company.
+They're advatising their brand new gaming laptops and desktops.
+
+Gaming laptops are mostly targeting college students since most of them like and
+have the time to play games. Desktops are targeting employees especially around IT
+companies. The goal of this project was to analyze MTA dataset to give advertising
+suggestions to the company.
+
+Company A needs the traffic information and location of each station from last
+summer to decide where and when to put out those ads.
 
 ## Data
 
 The MTA dataset I'm using contains 3099133 rows of data, which includes 344 stations
-with their coordinates. I also generated a dataset of 6 universities and 5 companies
-in New York City by myself, which includes their names and coordinates.
+with their coordinates.
+
+Each row will represent the number of entries and exits in each unit during weekdays
+and weekends, mornings, afternoons and nights. In this way I can get which station is
+busy during weekdays in the morning and which is during weekends at night and so on
+which can be used to determine which ad goes to which station.
+
+I also generated a dataset of 6 universities and 5 companies in New York City by myself,
+which includes their names and coordinates.
 
 ## Algorithms
 
