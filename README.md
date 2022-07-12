@@ -42,7 +42,9 @@ in New York City by myself, which includes their names and coordinates.
 
 ## Communication
 
-Slides for this project is shown [here](/slides.pdf)
+The project proposal is shown [here](/proposal.md).
+
+Slides for this project is shown [here](/slides.pdf).
 
 ## How to run
 
@@ -52,9 +54,3 @@ python get_mta.py "(2109|2110|2111|2112)"
 ```
 
 Run [final_project](/final_project.ipynb) in Jupyter Notebook
-
-## Other materials
-
-Project proposal in [proposal.md](/proposal.md)
-
-Results and other details in [slides.pdf](/slides.pdf)
