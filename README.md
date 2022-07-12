@@ -1,6 +1,7 @@
 # MTA_analysis - best stations for advertising
 
 ## Abstract
+
 Company A wants to put out ads in some MTA stations from September to December.
 They're advatising their brand new gaming laptops and desktops. Gaming laptops
 are mostly targeting college students since most of them like and have the time
@@ -16,7 +17,9 @@ and each station's coordinate, I'm able to get my result.
 
 ## Data
 
-
+The MTA dataset I'm using contains 3099133 rows of data, which includes 344 stations
+with their coordinates. I also generated a dataset of 6 universities and 5 companies
+in New York City by myself, which includes their names and coordinates.
 
 ## How to run
 
