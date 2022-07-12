@@ -1,6 +1,15 @@
-# MTA_Analysis - Best Stations for Advertising
+# MTA Analysis - Best Stations for Advertising
 
-## Abstract
+## Table of Contents
+- [Abstract](#link-part-1)
+- [Design](#link-part-2)
+- [Data](#link-part-3)
+- [Algorithm](#link-part-4)
+- [Tools](#link-part-5)
+- [Communication](#link-part-6)
+- [How to run](#link-part-7)
+
+## <a name="link-part-1">Abstract</a>
 
 The goal of this project was to virtualize traffic information of different MTA
 stations and give advertising suggestions. By analyzing the MTA dataset, I got
@@ -8,7 +17,7 @@ the traffic information of each station on weekdays and weekends, during each ti
 period. Based on the traffic information and each station's coordinate, I'm able
 to virtualize the result for a more clear view and give suggestions.
 
-## Design
+## <a name="link-part-2">Design</a>
 
 Company A wants to put out ads in some MTA stations from September to December.
 They're advatising their brand new gaming laptops and desktops.
@@ -21,7 +30,7 @@ suggestions to the company.
 Company A needs the traffic information and location of each station from last
 summer to decide where and when to put out those ads.
 
-## Data
+## <a name="link-part-3">Data</a>
 
 The MTA dataset I'm using contains 3099133 rows of data, which includes 344 stations
 with their coordinates.
@@ -34,7 +43,7 @@ which can be used to determine which ad goes to which station.
 I also generated a dataset of 6 universities and 5 companies in New York City by myself,
 which includes their names and coordinates.
 
-## Algorithms
+## <a name="link-part-4">Algorithm</a>
 
 1. Get dataset from MTA website.
 2. Get rid of stations that aren't in the coordinate dataset.
@@ -44,14 +53,14 @@ which includes their names and coordinates.
 6. Combine time into time periods and generate hourly entries and exits for each station.
 7. Generate graphs and maps
 
-## Tools
+## <a name="link-part-5">Tools</a>
 
 * SQLite database system
 * Pandas for data manipulation
 * Matplotlib for plotting
 * Folium for generating maps
 
-## Communication
+## <a name="link-part-6">Communication</a>
 
 <img src="Graph.jpg" alt="drawing" width="700"/>
 
@@ -59,7 +68,7 @@ The project proposal is shown [here](/proposal.md).
 
 Slides for this project is shown [here](/slides.pdf).
 
-## How to run
+## <a name="link-part-7">How to run</a>
 
 Get MTA data by
 ```
