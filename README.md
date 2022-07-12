@@ -1,4 +1,4 @@
-# MTA_analysis - best stations for advertising
+# MTA_Analysis - Best Stations for Advertising
 
 ## Abstract
 
@@ -20,6 +20,23 @@ and each station's coordinate, I'm able to get my result.
 The MTA dataset I'm using contains 3099133 rows of data, which includes 344 stations
 with their coordinates. I also generated a dataset of 6 universities and 5 companies
 in New York City by myself, which includes their names and coordinates.
+
+## Algorithms
+
+1. Get dataset from MTA website.
+2. Get rid of stations that aren't in the coordinate dataset.
+3. Get each station's daily entries and exits for comparison.
+4. Separate them into to categories: weekdays and weekends
+5. Get top 5 stations for weekdays and weekends
+6. Combine time into time periods and generate hourly entries and exits for each station.
+7. Generate graphs and maps
+
+## Tools
+
+* SQLite database system
+* Pandas for data manipulation
+* Matplotlib for plotting
+* Folium for generating maps
 
 ## How to run
 
