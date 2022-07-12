@@ -42,7 +42,7 @@ in New York City by myself, which includes their names and coordinates.
 
 ## Communication
 
-![](/Graph.png)
+![](/Graph.jpg)
 
 The project proposal is shown [here](/proposal.md).
 
