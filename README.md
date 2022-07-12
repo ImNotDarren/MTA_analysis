@@ -42,7 +42,7 @@ in New York City by myself, which includes their names and coordinates.
 
 ## Communication
 
-![](/graphs/Average_traffic_weekdays.png)
+![](/Graph.png)
 
 The project proposal is shown [here](/proposal.md).
 
